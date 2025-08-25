@@ -1,6 +1,4 @@
-export function fizzbuzz(){
-  //tu código va aqui
-  console.log("Fizz Buzz game")
+console.log("Fizz Buzz game")
 for (let i= 1; i <=100; i++){
     if(i%3===0 && i%5===0){
         console.log("Fizz-Buzz")
@@ -12,8 +10,3 @@ for (let i= 1; i <=100; i++){
         console.log(i)
     }
 }
-
-  
-}
-
-fizzbuzz();
